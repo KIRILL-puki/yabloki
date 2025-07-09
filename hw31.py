@@ -12,4 +12,4 @@ for cart in carts:
     if cart["userId"] <= 25:
         total += cart["total"]
 
-print(f"Total price: {total}")
+print(f"Price: {total}")
