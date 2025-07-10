@@ -5,8 +5,6 @@ params = {'limit': 9999, 'skip': 0}
 response = requests.get(url=URL, params=params)
 carts = response.json()["carts"]
 
-response = requests.get(url=URL, params=params)
-
 total = 0
 for cart in carts:
     if cart["userId"] <= 25:
